@@ -48,7 +48,7 @@ async def ama(ctx,*,question):
   await ctx.send(f'Your question: {question} \nCrystal Orb says: {random.choice(responses)}')
 
 
-client.run('ODYwMDQzOTA5MzAzNzYyOTU1.YN1gTg.yqfiHlrXECLzydWqpEiOMBrTbT4')
+#client.run('token here')
 
 
 
