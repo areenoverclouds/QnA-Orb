@@ -44,7 +44,8 @@ async def ama(ctx,*,question):
                 "The universe says no.",
                 "Not clear.",
                 "I believe, yes.",
-                "That may be possible."]
+                "That may be possible."
+                "The clouds are blurry."]
   await ctx.send(f'Your question: {question} \nCrystal Orb says: {random.choice(responses)}')
 
 
